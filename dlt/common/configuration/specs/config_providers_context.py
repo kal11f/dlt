@@ -24,7 +24,7 @@ from dlt.common.runtime.exec_info import is_airflow_installed
 
 @configspec
 class ConfigProvidersConfiguration(BaseConfiguration):
-    enable_airflow_secrets: bool = True
+    enable_airflow_secrets: bool = False
     enable_google_secrets: bool = False
     only_toml_fragments: bool = True
 
